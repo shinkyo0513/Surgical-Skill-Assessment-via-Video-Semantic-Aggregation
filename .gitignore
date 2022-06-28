@@ -132,3 +132,5 @@ dmypy.json
 .jpg
 group_vis_res/*
 data/*
+bashes/*
+bash_outs/*
