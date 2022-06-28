@@ -415,10 +415,14 @@ if __name__ == '__main__':
 
     if args.split_index == 0:
         split_ids = list(range(1, split_num+1))
+        if args.task == 'Needle_Passing':
+            split_ids.remove(6)
         print(f'Run all {split_num} split.')
     elif args.split_index in list(range(1, split_num+1)):
         split_ids = [args.split_index]
         print(f'Only run the {args.split_index}-th split.')
+        if args.task == 'Needle_Passing' and args.split_index == 6:
+            print(f'Needle_Passing task has no split 6. Skip.')
     else:
         raise Exception(f'Given split index is wrong: {args.split_index}')
     
