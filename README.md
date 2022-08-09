@@ -58,3 +58,14 @@ python main_jigsaws_group.py --split_index 0 --num_samples 32 --batch_size 4 --v
 # Hei-Chole
 python main_heichole_group.py --split_index 0 --num_samples 64 --batch_size 2 --task Across --num_epochs 40 --schedule_step 20 --learning_rate 3e-5 --num_parts 3 --shaping_weight 10 --scene_node --freeze_extractor #--visualize 
 ```
+
+
+### Reference
+```
+@article{li2022surgical,
+  title={Surgical Skill Assessment via Video Semantic Aggregation},
+  author={Li, Zhenqiang and Gu, Lin and Wang, Weimin and Nakamura, Ryosuke and Sato, Yoichi},
+  journal={arXiv preprint arXiv:2208.02611},
+  year={2022}
+}
+```
