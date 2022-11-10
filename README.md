@@ -62,10 +62,11 @@ python main_heichole_group.py --split_index 0 --num_samples 64 --batch_size 2 --
 
 ### Reference
 ```
-@article{li2022surgical,
+@inproceedings{li2022surgical,
   title={Surgical Skill Assessment via Video Semantic Aggregation},
   author={Li, Zhenqiang and Gu, Lin and Wang, Weimin and Nakamura, Ryosuke and Sato, Yoichi},
-  journal={arXiv preprint arXiv:2208.02611},
+  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2022: 25th International Conference, Singapore, September 18--22, 2022, Proceedings, Part VII},
+  pages={410--420},
   year={2022}
 }
 ```
